@@ -1,0 +1,59 @@
+@import "https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&family=Caveat:wght@700&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  flex-direction: column;
+  align-items: center;
+  font-family: Barlow, sans-serif;
+  display: flex;
+}
+
+h1 {
+  font-family: Caveat, cursive;
+  font-size: 6em;
+}
+
+#country-list {
+  column-count: 3;
+  list-style-type: none;
+}
+
+#country-list li {
+  background-color: #f8f9fa;
+  margin: 5px 2px;
+  padding: 5px 0;
+}
+
+.flag {
+  width: 20px;
+}
+
+.blue {
+  color: #118ab2;
+}
+
+.green {
+  color: #06d6a0;
+}
+
+.red {
+  color: #ef233c;
+}
+
+.yellow {
+  color: #ffd166;
+}
+
+.purple {
+  color: #d100d1;
+}
+
+.default {
+  color: gray;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
